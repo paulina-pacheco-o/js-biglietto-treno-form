@@ -25,7 +25,7 @@ button.addEventListener(`click`, function (event) {
     finalPrice = basePrice
   }
 
-  const price = priceInput.innerHTML = `${finalPrice.toFixed(2)}`;
+  //const price = priceInput.innerHTML = `${finalPrice.toFixed(2)}`;
 
 
   resultForm.innerHTML = `<ul>

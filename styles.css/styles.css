@@ -3,3 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.red {
+  background-color: red;
+}
+
+h1 {
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

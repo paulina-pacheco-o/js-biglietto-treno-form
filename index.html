@@ -11,25 +11,30 @@
 </head>
 
 <body>
-  <div class="container">
-    <div class="row">
-      <div class="col-6">
-        <label for="" class="form-label">kilometri</label>
-        <input type="text" name="km" id="km" class="form-control" placeholder="Inserisci il numero di Kilometri"
-          required>
+  <div class="red">
+    <div class="container">
+      <div class="row red">
+        <div class="col-12 mt-5">
+          <h1>CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
+        </div>
+        <div class="col-6 bg-white mt-5 mb-3">
+          <label for="" class="form-label">kilometri</label>
+          <input type="text" name="km" id="km" class="form-control" placeholder="Inserisci il numero di Kilometri"
+            required>
+        </div>
+        <div class="col-6 bg-white mt-5 mb-3">
+          <label for="" class="form-label">Età</label>
+          <input type="text" name="age" id="age" class="form-control" placeholder="Inserisci la tua età" required>
+        </div>
+        <div class="col-6 bg-white mb-3">
+          <label for="" class="form-label">Prezzo</label>
+          <input type="text" name="Price" id="Price" class="form-control" placeholder="Prezzo finale" required>
+        </div>
       </div>
-      <div class="col-6">
-        <label for="" class="form-label">Età</label>
-        <input type="text" name="age" id="age" class="form-control" placeholder="Inserisci la tua età" required>
+      <button id="button" class="btn btn-light">Invia</button>
+      <div class="col-12">
+        <div id="result-form"></div>
       </div>
-      <div class="col-6">
-        <label for="" class="form-label">Prezzo</label>
-        <input type="text" name="Price" id="Price" class="form-control" placeholder="Prezzo finale" required>
-      </div>
-    </div>
-    <button id="button" class="btn btn-light">Invia</button>
-    <div class="col-12">
-      <div id="result-form"></div>
     </div>
   </div>
 
