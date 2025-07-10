@@ -1,7 +1,8 @@
 const kmInput = document.getElementById(`km`);
 const ageInput = document.getElementById(`age`);
 const button = document.getElementById(`button`);
-const priceInput = document.getElementById(`price`)
+const priceInput = document.getElementById(`price`);
+const resultForm = document.getElementById(`result-form`);
 
 
 button.addEventListener(`click`, function (event) {
@@ -24,7 +25,13 @@ button.addEventListener(`click`, function (event) {
     finalPrice = basePrice
   }
 
-  const price = priceInput.innerHTML = (`${finalPrice.toFixed(2)}`);
+  resultForm.innerHTML = `<ul>
+  <li><strong>Kilometri: </strong>${km}</li>
+  <li><strong>Età: </strong>${age}</li>
+  <li><strong>Prezzo finale: </strong>${finalPrice.toFixed(2)}€</li>
+  </ul>`
+
+  //const price = priceInput.innerHTML = ${ finalPrice.toFixed(2)};
 
   console.log(`${finalPrice.toFixed(2)}`)
 })
